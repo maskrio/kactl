@@ -8,6 +8,28 @@ typedef long long ll;
 typedef pair<int, int> pii;
 typedef vector<int> vi;
 
+#define F first 
+#define S second
+#define fi first
+#define se second
+#define fr first
+#define sc second
+
+#define pb push_back
+#define mp make_pair
+#define ll long long
+#define llu unsigned long long
+#define pll pair<ll, ll>
+#define pllu pair<llu, llu>
+
+#define ld double
+#define pld pair<ld, ld>
+const ll INF = 9e18;
+const ll mods = 1e9+7;
+
+mt19937_64 rng(chrono::steady_clock::now().time_since_epoch().count());
+
+
 int main() {
 	cin.tie(0)->sync_with_stdio(0);
 	cin.exceptions(cin.failbit);
