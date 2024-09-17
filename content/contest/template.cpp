@@ -12,6 +12,8 @@ typedef vector<int> vi;
 #define S second
 #define fi first
 #define se second
+#define fr first
+#define sc second
 
 #define pb push_back
 #define mp make_pair
