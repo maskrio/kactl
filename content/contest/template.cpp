@@ -27,6 +27,8 @@ typedef vector<int> vi;
 const ll INF = 9e18;
 const ll mods = 1e9+7;
 
+mt19937_64 rng(chrono::steady_clock::now().time_since_epoch().count());
+
 
 int main() {
 	cin.tie(0)->sync_with_stdio(0);
